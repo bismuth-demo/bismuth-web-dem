@@ -1,0 +1,4 @@
+FFFFFF- White
+7D7987- Grey
+CC2020 - Red
+0B0B0B - Black

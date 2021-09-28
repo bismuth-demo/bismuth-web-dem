@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.content2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url(images/Os.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}    
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 14px;
+    position: relative;
+    border-radius: 18px;
+    border: 1px solid #CC2020;
+    background: transparent;
+    cursor: pointer;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.nav-links ul li:hover{
+    color: white;
+    background: #cc2020;
+    transition: 0.5s;
+}
+.nav-links ul li a:hover{
+    color: white;
+    background: #cc2020;
+    transition: 0.5s;
+}
+.first-2pics{
+    display: flex;
+    justify-content: space-around;
+}
+.Next-2pics{
+    display: flex;
+    justify-content: center;
+}
+.last-2pics{
+    display: flex;
+    justify-content: space-around;
+}
+.design img{
+    border: 15px solid antiquewhite;
+    border-radius: 50%;
+   /* border-width: thick;*/
+}
+.abt-statments{
+    margin-top: 5%;
+    text-align: center;
+}
+.abt-statments h1{
+    font-size:50px;
+    color: black;
+   
+}
+.abt-statments h1::after{
+    content: '';
+    width: 7%;
+    height: 7px;
+    background: #CC2020;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    margin-bottom: 2%;
+    
+}
+
+footer{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #CC2020;
+    
+}
+.f1{
+    margin: 10px;
+    color: white;
+    
+}
+.f1 a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
